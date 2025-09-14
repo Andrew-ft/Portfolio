@@ -1,5 +1,3 @@
-import { useState } from 'react'
-
 import './App.css'
 import ProfileComponent from './components/ProfileComponent'
 import InformationComponent from './components/InformationComponent'

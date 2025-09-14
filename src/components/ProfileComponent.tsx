@@ -1,4 +1,3 @@
-import React from "react";
 import pfp from "./../assets/pfp.jpeg";
 import { Button } from "./ui/button";
 import { FaGithub, FaLinkedin } from "react-icons/fa";

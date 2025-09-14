@@ -1,4 +1,3 @@
-import React from "react";
 import { Badge } from "./ui/badge";
 import { FaGithub } from "react-icons/fa";
 import { MdOpenInNew } from "react-icons/md";
