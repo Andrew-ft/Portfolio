@@ -3,7 +3,7 @@ import { Button } from "./ui/button";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 import { FileDown } from "lucide-react";
 import { IoMail } from "react-icons/io5";
-import ResumePDF from "./../assets/Bank Letter.pdf";
+import ResumePDF from "./../assets/WorkCVForm4.pdf";
 
 // Dynamic profile data
 const profileData = {
@@ -41,7 +41,7 @@ export default function ProfileComponent() {
       <p className="opacity-80 text-sm">{profileData.bio}</p>
 
       <div className="flex space-x-3 items-center">
-        <a href={ResumePDF} download="Bank Letter.pdf">
+        <a href={ResumePDF} download="WorkCVForm.pdf">
           <Button className="cursor-pointer flex items-center gap-2">
             <FileDown />
             Resume

@@ -84,13 +84,13 @@ const projects = [
 const education = [
   {
     school: "Northumbria University, Newcastle",
-    degree: "BSc(Hons) in Artificial Intelligence",
+    degree: "BSc(Hons) In Artificial Intelligence",
     period: "Sept 2025 - Current",
     image: NU,
   },
   {
     school: "Greenwich University",
-    degree: "BSc(Hons) in Computing",
+    degree: "BSc(Hons) In Computing",
     period: "Feb 2025 - Current",
     image: GW,
   },
