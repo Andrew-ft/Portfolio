@@ -20,7 +20,7 @@ const profileData = {
     },
     {
       icon: <IoMail size={20} />,
-      href: "mailto:thantpyaes01@gmail.com",
+      href: "https://mail.google.com/mail/?view=cm&to=thantpyaes01@gmail.com",
       label: "Email",
     },
     {
