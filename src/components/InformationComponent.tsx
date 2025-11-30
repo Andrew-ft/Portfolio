@@ -79,6 +79,20 @@ const projects = [
       live: "https://orbi-uit.vercel.app/",
     },
   },
+  {
+    title:
+      "CoreFitness Online Fitness Tracker",
+    role: "Full Stack Developer",
+    description: [
+      "Developed a role-based fitness management system for admins, trainers, and members with features like workouts, routines, and progress tracking.",
+      "Implemented real-time trainer–member chat, routine completion tracking, and fully integrated frontend–backend workflows.",
+    ],
+    technologies: ["ReactJS", "NodeJS", "ExpressJS", "PostgresSQL", "Prisma"],
+    links: {
+      code: "https://github.com/Andrew-ft/Fitness-Tracker",
+      live: "",
+    },
+  },
 ];
 
 const education = [
@@ -91,7 +105,7 @@ const education = [
   {
     school: "Greenwich University",
     degree: "BSc(Hons) In Computing",
-    period: "Feb 2025 - Current",
+    period: "Feb 2025 - Nov 2025",
     image: GW,
   },
   {
