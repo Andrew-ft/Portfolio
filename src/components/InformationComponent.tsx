@@ -136,7 +136,7 @@ export default function InformationComponent() {
         </p>
         <p className="text-left text-sm mb-3">
           My core expertise lies in building end-to-end web applications,
-          including KeyBurm, Eduflexio, OrbiUIT, CoreFitness. I work across both frontend
+          including KeyBurm, Eduflexio, OrbiUIT and CoreFitness. I work across both frontend
           and backend technologies, ensuring seamless integration between user
           interfaces and robust backend systems. Currently I'm working on my
           personal project, fitness tracking project.
