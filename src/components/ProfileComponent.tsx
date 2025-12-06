@@ -41,7 +41,7 @@ export default function ProfileComponent() {
       <p className="opacity-80 text-sm">{profileData.bio}</p>
 
       <div className="flex space-x-3 items-center">
-        <a href={ResumePDF} download="WorkCVForm.pdf">
+        <a href={ResumePDF} download="andrew_work_cv.pdf">
           <Button className="cursor-pointer flex items-center gap-2">
             <FileDown />
             Resume
