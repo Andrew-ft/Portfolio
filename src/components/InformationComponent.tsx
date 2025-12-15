@@ -13,9 +13,11 @@ const skills = {
     { name: "TypeScript", color: "bg-sky-950 text-blue-300" },
     { name: "PHP", color: "bg-sky-950 text-blue-300" },
     { name: "Kotlin", color: "bg-sky-950 text-blue-300" },
+    { name: "Java", color: "bg-sky-950 text-blue-300" },
   ],
   frameworks: [
     { name: "ReactJS", color: "bg-green-950 text-green-300" },
+    { name: "React Native", color: "bg-green-950 text-green-300" },
     { name: "Bootstrap", color: "bg-green-950 text-green-300" },
     { name: "Tailwind", color: "bg-green-950 text-green-300" },
     { name: "NodeJS", color: "bg-green-950 text-green-300" },
@@ -28,6 +30,7 @@ const skills = {
     { name: "MongoDB", color: "bg-red-950 text-red-300" },
     { name: "Postgres", color: "bg-red-950 text-red-300" },
     { name: "Prisma", color: "bg-red-950 text-red-300" },
+    { name: "SQLite", color: "bg-red-950 text-red-300" },
   ],
   tools: [
     { name: "Git", color: "bg-yellow-950 text-yellow-200" },
