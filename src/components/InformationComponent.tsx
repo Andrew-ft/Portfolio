@@ -2,9 +2,7 @@ import { Badge } from "./ui/badge";
 import { FaGithub } from "react-icons/fa";
 import { MdOpenInNew } from "react-icons/md";
 import GW from "./../assets/GW.jpeg";
-import KMD from "./../assets/KMD.png";
 import NU from "./../assets/NU.jpeg";
-import UIT from "./../assets/UIT.png";
 
 // Dynamic data
 const skills = {
