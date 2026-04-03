@@ -37,7 +37,7 @@ export default function ProfileComponent() {
     <div className="flex flex-col items-start space-y-3">
       <img src={pfp} alt="pfp" className="rounded-full w-40" />
       <h1 className="text-xl font-bold text-left">{profileData.name}</h1>
-      <h2 className="text-xl font-bold text-left">{profileData.education}</h2>
+      <h3 className="text-xl font-bold text-left">{profileData.education}</h3>
       <p className="text-md opacity-70 tracking-wide">{profileData.role}</p>
       <p className="text-sm opacity-70 tracking-wide">{profileData.location}</p>
       <p className="opacity-80 text-sm">{profileData.bio}</p>
