@@ -110,19 +110,7 @@ const education = [
     degree: "BSc(Hons) In Computing",
     period: "Feb 2025 - Nov 2025",
     image: GW,
-  },
-  {
-    school: "KMD Institue",
-    degree: "Higher National Diploma In Computing",
-    period: "Nov 2022 - April 2024",
-    image: KMD,
-  },
-  {
-    school: "University Of Information Technology",
-    degree: "BSc(Hons) In Computer Science",
-    period: "Nov 2022 - Sept 2025",
-    image: UIT,
-  },
+  }
 ];
 
 export default function InformationComponent() {
@@ -131,18 +119,16 @@ export default function InformationComponent() {
       <div className="mb-10">
         <h1 className="text-xl font-bold text-start mb-5">About Me</h1>
         <p className="text-left text-sm mb-3">
-          I’m Thant Pyae Sone Htoo (Andrew), a 21-year-old Full Stack Web
-          Developer with a strong academic foundation in computer science. From
-          the start of my journey, I’ve been passionate about technology and
-          problem-solving, developing projects that combine creativity with
-          functionality.
+          I’m Thant Pyae Sone Htoo (Andrew), a 21‑year‑old Full Stack Web Developer with a strong
+          academic foundation in computer science. I hold a BSc (Hons) in Computing from the
+          University of Greenwich, and I’m currently continuing my studies in Artificial
+          Intelligence at Northumbria University in the UK.
         </p>
         <p className="text-left text-sm mb-3">
           My core expertise lies in building end-to-end web applications,
           including KeyBurm, Eduflexio, OrbiUIT and CoreFitness. I work across both frontend
           and backend technologies, ensuring seamless integration between user
-          interfaces and robust backend systems. Currently I'm working on my
-          personal project, fitness tracking project.
+          interfaces and robust backend systems.
         </p>
         <p className="text-left text-sm mb-3">
           Alongside my computing career, I’ve cultivated skills in graphic
