@@ -12,6 +12,7 @@ const skills = {
     { name: "PHP", color: "bg-sky-950 text-blue-300" },
     { name: "Kotlin", color: "bg-sky-950 text-blue-300" },
     { name: "Java", color: "bg-sky-950 text-blue-300" },
+    { name: "Python", color: "bg-sky-950 text-blue-300" },
   ],
   frameworks: [
     { name: "ReactJS", color: "bg-green-950 text-green-300" },
@@ -21,6 +22,7 @@ const skills = {
     { name: "NodeJS", color: "bg-green-950 text-green-300" },
     { name: "ExpressJS", color: "bg-green-950 text-green-300" },
     { name: "REST APIs", color: "bg-green-950 text-green-300" },
+    { name: "Flask", color: "bg-green-950 text-green-300" },
   ],
   databases: [
     { name: "MySQL", color: "bg-red-950 text-red-300" },
@@ -29,6 +31,7 @@ const skills = {
     { name: "Postgres", color: "bg-red-950 text-red-300" },
     { name: "Prisma", color: "bg-red-950 text-red-300" },
     { name: "SQLite", color: "bg-red-950 text-red-300" },
+    { name: "SQLAlchemy", color: "bg-red-950 text-red-300" },
   ],
   tools: [
     { name: "Git", color: "bg-yellow-950 text-yellow-200" },
