@@ -43,30 +43,29 @@ const skills = {
 
 const projects = [
   {
-    title: "KeyBurm Typing Simulation Website",
-    role: "NodeJS Backend Developer",
+    title: "CandidView",
+    role: "AI Powered Full Stack Developer",
     description: [
-      "Implemented English and Burmese word generation features based on time and word limits.",
-      "Developed backend logic to manage word sequencing and optimize performance.",
+      "Build the full application using NextJS, Prisma, Postgres, and integrated Claude LLM for AI-driven features using claude code",
+      "Part of the presenter which explained the project at Northumbria Claude Builder Club Hackathon, showcasing the innovative use of AI in web development.",
     ],
-    technologies: ["ReactJS", "NodeJS", "ExpressJS", "MySQL"],
+    technologies: ["NextJS", "Prisma", "Postgres", "Claude LLM"],
     links: {
-      client: "https://github.com/one-project-one-month/MyanType-React",
-      server: "https://github.com/one-project-one-month/MyanType-Nodejs",
-      live: "https://key-burm.vercel.app/",
+      code: "https://github.com/Andrew-ft/candid-view",
+      live: "https://candid-view.vercel.app/",
     },
   },
   {
-    title: "EduFlexio School Management Website",
-    role: "ReactJS Frontend Developer",
+    title: "CoreFitness Online Fitness Tracker",
+    role: "Full Stack Developer",
     description: [
-      "Designed intuitive UI/UX layouts and implemented responsive student dashboards.",
-      "Built reusable frontend components to enhance functionality and user engagement.",
+      "Developed a role-based fitness management system for admins, trainers, and members with features like workouts, routines, and progress tracking.",
+      "Implemented real-time trainer–member chat, routine completion tracking, and fully integrated frontend–backend workflows.",
     ],
-    technologies: ["ReactJS", "NodeJS", "ExpressJS", "PostgreSQL"],
+    technologies: ["ReactJS", "NodeJS", "ExpressJS", "PostgresSQL", "Prisma"],
     links: {
-      code: "https://github.com/vcxknb",
-      live: "http://ec2-54-251-241-38.ap-southeast-1.compute.amazonaws.com/",
+      code: "https://github.com/Andrew-ft/Fitness-Tracker",
+      live: "",
     },
   },
   {
@@ -84,17 +83,30 @@ const projects = [
     },
   },
   {
-    title:
-      "CoreFitness Online Fitness Tracker",
-    role: "Full Stack Developer",
+    title: "EduFlexio School Management Website",
+    role: "ReactJS Frontend Developer",
     description: [
-      "Developed a role-based fitness management system for admins, trainers, and members with features like workouts, routines, and progress tracking.",
-      "Implemented real-time trainer–member chat, routine completion tracking, and fully integrated frontend–backend workflows.",
+      "Designed intuitive UI/UX layouts and implemented responsive student dashboards.",
+      "Built reusable frontend components to enhance functionality and user engagement.",
     ],
-    technologies: ["ReactJS", "NodeJS", "ExpressJS", "PostgresSQL", "Prisma"],
+    technologies: ["ReactJS", "NodeJS", "ExpressJS", "PostgreSQL"],
     links: {
-      code: "https://github.com/Andrew-ft/Fitness-Tracker",
-      live: "",
+      code: "https://github.com/vcxknb",
+      live: "http://ec2-54-251-241-38.ap-southeast-1.compute.amazonaws.com/",
+    },
+  },
+  {
+    title: "KeyBurm Typing Simulation Website",
+    role: "NodeJS Backend Developer",
+    description: [
+      "Implemented English and Burmese word generation features based on time and word limits.",
+      "Developed backend logic to manage word sequencing and optimize performance.",
+    ],
+    technologies: ["ReactJS", "NodeJS", "ExpressJS", "MySQL"],
+    links: {
+      client: "https://github.com/one-project-one-month/MyanType-React",
+      server: "https://github.com/one-project-one-month/MyanType-Nodejs",
+      live: "https://key-burm.vercel.app/",
     },
   },
 ];
@@ -111,7 +123,7 @@ const education = [
     degree: "BSc(Hons) In Computing",
     period: "Feb 2025 - Nov 2025",
     image: GW,
-  }
+  },
 ];
 
 export default function InformationComponent() {
@@ -120,16 +132,17 @@ export default function InformationComponent() {
       <div className="mb-10">
         <h1 className="text-xl font-bold text-start mb-5">About Me</h1>
         <p className="text-left text-sm mb-3">
-          I’m Thant Pyae Sone Htoo (Andrew), a 21‑year‑old Full Stack Web Developer with a strong
-          academic foundation in computer science. I hold a BSc (Hons) in Computing from the
-          University of Greenwich, and I’m currently continuing my studies in Artificial
-          Intelligence at Northumbria University in the UK.
+          I’m Thant Pyae Sone Htoo (Andrew), a 21‑year‑old Full Stack Web
+          Developer with a strong academic foundation in computer science. I
+          hold a BSc (Hons) in Computing from the University of Greenwich, and
+          I’m currently continuing my studies in Artificial Intelligence at
+          Northumbria University in the UK.
         </p>
         <p className="text-left text-sm mb-3">
           My core expertise lies in building end-to-end web applications,
-          including KeyBurm, Eduflexio, OrbiUIT and CoreFitness. I work across both frontend
-          and backend technologies, ensuring seamless integration between user
-          interfaces and robust backend systems.
+          including KeyBurm, Eduflexio, OrbiUIT and CoreFitness. I work across
+          both frontend and backend technologies, ensuring seamless integration
+          between user interfaces and robust backend systems.
         </p>
         <p className="text-left text-sm mb-3">
           Alongside my computing career, I’ve cultivated skills in graphic
